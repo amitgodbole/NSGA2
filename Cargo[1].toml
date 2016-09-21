@@ -1,0 +1,16 @@
+[package]
+name = "nsga2"
+version = "0.0.1"
+authors = ["Michael Neumann <mneumann@ntecs.de>"]
+license = "MIT"
+repository = "https://github.com/mneumann/nsga2-rs"
+description = "NSGA-2"
+keywords = ["evolution", "algorithm", "multi-objective", "nsga"]
+
+include = ["src/*.rs", "examples/*.rs", "Cargo.toml", "LICENSE", "README.md"]
+
+[dependencies]
+
+rand = "0.3"
+rayon = "0.3.1"
+time = "0.1"
